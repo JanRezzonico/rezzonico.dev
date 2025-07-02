@@ -1,0 +1,173 @@
+{
+  "HomePage": {
+    "beta_warning": "This website is still in beta. Some features may not work as expected."
+  },
+  "Header": {
+    "name": "Jan Rezzonico",
+    "slogan": "Innovative, Systematic, Reliable",
+    "home": "Home",
+    "testimonials": "Testimonials",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact me"
+  },
+  "PresentationSection": {
+    "title": "Hi, I'm Jan",
+    "subtitle": "Full Stack Web Developer",
+    "get_started": "Get started",
+    "contact_me": "Get in touch",
+    "description": "I'm a Business IT Specialist with a passion for Web Development. I have a broad background in IT, but I have always excelled in software ideation and development. I'm always looking for new challenges and opportunities to grow professionally."
+  },
+  "TestimonialsSection": {
+    "title": "Testimonials",
+    "subtitle": "What they say about me",
+    "translation": "See translation",
+    "content": {
+      "getsociable": {
+        "name": "Peter McCleery",
+        "position": "CEO at GetSociable",
+        "text": "Jan worked on our <b>GetSociable</b> App by taking <b>requirements</b> and implementing them <b>fully to scope</b>. He was <b>very diligent</b> in his work, seeking clarity where required and <b>able to communicate progress and any blockers</b>. He had a <b>flair for UI/UX</b> and also equally <b>adept at backend functionality</b>. He <b>worked well with the team</b> and surpassed all our expectations."
+      },
+      "ict": {
+        "name": "ICT Berufsbildung",
+        "position": "",
+        "text": "At the end of my professional training as a <b>Business IT Specialist</b>, I was <b>awarded</b> for my academic performance, achieving a <b>result of 5.7 out of 6</b>. This recognition reflects the <b>commitment and dedication</b> I put into my educational journey. Additionally, I qualified for the <b>Swiss ICT Championships in Web Technologies</b>, a milestone that represents further success in my career."
+      }
+    }
+  },
+  "SkillsSection": {
+    "title": "Skills",
+    "subtitle": "The technologies I mainly work with",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "database": "Database",
+    "os": "Operating Systems",
+    "tools": "Tools",
+    "other": "Other"
+  },
+  "ProjectsSection": {
+    "title": "Projects",
+    "subtitle": "Some of my projects",
+    "not_in_chronological_order": "Not in chronological order",
+    "content": {
+      "phatris": {
+        "title": "Phatris",
+        "description": "Phatris is a Tetris clone I developed with a classmate in 2022, where the player can choose between different game modes. The game is developed with the Phaser 3 framework and displays a scoreboard stored in a MongoDB database. Keyboard controls are used for gameplay.",
+        "source_link": "https://github.com/JanRezzonico/Phatris_Demo",
+        "extra_link": "https://phatris.demo.rezzonico.dev",
+        "extra_text": "Try it out",
+        "story": "My first official school project, where I learned a lot about game development and the Phaser 3 framework.",
+        "year": "2022"
+      },
+      "movie_survey": {
+        "title": "Movie Survey",
+        "description": "Movie Survey is an app developed with React Native that helps a group choose a movie democratically. It allows users to vote on a selection of films, generating a ranking and supporting new votes based on previous results. It uses WebSocket for real-time communication and MongoDB for data management. Compatible with both Android and iOS.",
+        "source_link": "",
+        "extra_link": "",
+        "extra_text": "",
+        "story": "My Business IT exam project, where I displayed my skills in Mobile App Development and real-time communication.",
+        "year": "2024"
+      },
+      "db_comparison": {
+        "title": "Comparative Analysis of Relational and NoSQL Databases",
+        "description": "This analysis involves the development of two equivalent web APIs, one using a relational database (MySQL) and the other using a document-based database (MongoDB). The APIs allow CRUD operations on a sample dataset in order to compare the performance of the two databases in terms of execution speed and scalability.",
+        "source_link": "",
+        "extra_link": "",
+        "extra_text": "",
+        "story": "A project I developed for my Business IT studies, where I demonstrated my skills in database creation and management, API development and comparative analysis.",
+        "year": "2024"
+      },
+      "workoutracker": {
+        "title": "WorkoutTracker",
+        "description": "Together with two students from my year, I developed a mobile app for workout tracking, using React Native with Expo for the first time. Data is managed through a backend with MongoDB and a REST API in Express, allowing profile and user data management.",
+        "source_link": "",
+        "extra_link": "/miscellaneous/Presentazione_WorkouTracker.pdf",
+        "extra_text": "View the presentation",
+        "story": "My first dive into mobile app development, where I learned a lot about React Native and Expo.",
+        "year": "2023"
+      },
+      "addiction_recovery": {
+        "title": "Clean Progress Tracker",
+        "description": "A mobile application developed with React Native that helps users track their progress in overcoming addictions, allowing the creation of time counters, the addition of notes, and resetting in case of relapse. Data is managed through a backend with MongoDB and a REST API in Express, ensuring discreet management of user profiles and data.",
+        "source_link": "",
+        "extra_link": "/miscellaneous/Presentazione_CleanProgressTracker.pdf",
+        "extra_text": "View the presentation",
+        "story": "A project I developed for my Business IT studies, where I demonstrated my skills in mobile app development and data management.",
+        "year": "2024"
+      },
+      "guess_the_word": {
+        "title": "Guess The Word",
+        "description": "A very trivial Skribbl.io clone I created in 2022 with a classmate, where a player draws a word and the others have to guess it. The game is developed with vanilla HTML/CSS/JS on top of Node.js and Socket.IO, allowing real-time communication between players.",
+        "source_link": "",
+        "extra_link": "https://guesstheword.demo.rezzonico.dev/",
+        "extra_text": "Try it out",
+        "story": "A fun project I developed with a classmate, where I learned a lot about real-time communication and game development.",
+        "year": "2022"
+      },
+      "bmp_manipulator": {
+        "title": "Bitmap Manipulator",
+        "description": "A Java command-line tool that reads a bitmap image at byte level without using any libraries. It allows the user to manipulate the image by applying filters, changing colors, and modifying pixels. Also allows the user to create an ASCII art from a bitmap image with custom characters.",
+        "source_link": "https://github.com/JanRezzonico/i-love-bmp",
+        "extra_link": "",
+        "extra_text": "",
+        "story": "A project I developed while learning Java, where I learned a lot about the bitmap format and how to manipulate images at byte level.",
+        "year": "2022"
+      },
+      "9erre": {
+        "title": "9erre",
+        "description": "A websit for Caritas Ticino's second-hand store 9erre, built with Next.js and deployed on a VPS. The project provides an online presence for the store, showcasing products and sharing the store's mission. All rights to the website are reserved by Caritas Ticino.",
+        "source_link": "",
+        "extra_link": "https://9erre.ch/",
+        "extra_text": "Visit the website",
+        "story": "A project I developed for Caritas Ticino, where I learned a lot about web development with Next.js the framework, as well as deployment on a VPS.",
+        "year": "2025"
+      }
+    }
+  },
+  "ContactPage": {
+    "title": "Do you want to get in touch?",
+    "subtitle": "I would love to hear from you!",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "thanks": "Thank you!! I hope to recieve a message from you soon."
+  },
+  "PrivacyPolicy": {
+    "title": "Privacy Policy",
+    "effective_date": "Effective Date",
+    "intro": "We value your privacy and are committed to protecting your personal information. This Privacy Policy outlines how we collect, use, and protect your personal data in accordance with Swiss privacy laws.",
+    "contact": "If you have any questions or concerns about this Privacy Policy, please contact us at privacy@rezzonico.dev.",
+    "data_controller": {
+      "title": "1. Data Controller",
+      "description": "rezzonico.dev is owned and operated by Jan Rezzonico, the individual responsible for the collection and processing of personal data."
+    },
+    "types_of_data_collected": {
+      "title": "2. Types of Data Collected",
+      "description": "This website collects the following types of data: Cookies. A necessary cookie is used to remember your language preference for a better user experience. No personal data is collected through forms or analytics."
+    },
+    "purpose_of_data_collection": {
+      "title": "3. Purpose of Data Collection",
+      "description": "The only data collected is the language preference cookie, which is used solely to enhance your user experience by remembering your language choice during your visit."
+    },
+    "data_retention_period": {
+      "title": "4. Data Retention Period",
+      "description": "The language preference cookie is stored on your device and retained until you delete it. As the cookie is stored client-side, you have full control over its deletion through your browser settings."
+    },
+    "user_rights": {
+      "title": "5. User Rights",
+      "description": "As no personal data is collected, there are no formal rights to access, correct, or delete personal data. However, if you have any questions about your data, feel free to contact us at privacy@rezzonico.dev."
+    },
+    "third_party_sharing": {
+      "title": "6. Third-Party Sharing",
+      "description": "This website is hosted on Vercel, and Vercel may process data related to website security (e.g., DDoS protection) and performance management. We do not share personal data with third parties beyond what is necessary for the website's functioning. For more information on how Vercel handles data, please refer to their privacy policy."
+    },
+    "security_measures": {
+      "title": "7. Security Measures",
+      "description": "While no personal data is exchanged beyond the language preference cookie, the website uses HTTPS to ensure that any communication between your browser and the server is encrypted and secure."
+    },
+    "changes_to_the_privacy_policy": {
+      "title": "8. Changes to the Privacy Policy",
+      "description": "This Privacy Policy may be updated from time to time. Any changes will be reflected on this page, and the date of the latest update will be indicated below."
+    },
+    "last_updated": "Last Updated: {effectiveDate}"
+  }
+}

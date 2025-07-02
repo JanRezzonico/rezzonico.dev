@@ -1,0 +1,8 @@
+.buttonSelected {
+  background-color: var(--color-primary);
+  transition: background-color 0.3s ease;
+}
+
+.textSelected {
+  color: var(--color-primary-content);
+}

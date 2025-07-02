@@ -1,0 +1,174 @@
+{
+  "HomePage": {
+    "beta_warning": "Questo sito web è ancora in beta. Alcune funzionalità potrebbero non funzionare come previsto."
+  },
+  "Header": {
+    "name": "Jan Rezzonico",
+    "slogan": "Innovativo, Metodico, Affidabile",
+    "home": "Home",
+    "testimonials": "Testimonianze",
+    "skills": "Competenze",
+    "projects": "Progetti",
+    "contact": "Contattami"
+  },
+  "PresentationSection": {
+    "title": "Ciao, sono Jan",
+    "subtitle": "Sviluppatore Web Full Stack",
+    "get_started": "Scopri di più",
+    "contact_me": "Contattami",
+    "description": "Sono un Informatico Aziendale con una passione per lo sviluppo web. Ho una vasta esperienza nel settore IT, ma ho sempre eccelso nell'ideazione e nello sviluppo software. Sono sempre alla ricerca di nuove sfide e opportunità per crescere professionalmente."
+  },
+  "TestimonialsSection": {
+    "title": "Testimonianze",
+    "subtitle": "Cosa dicono di me",
+    "translation": "Vedi traduzione",
+    "content": {
+      "getsociable": {
+        "name": "Peter McCleery",
+        "position": "CEO / GetSociable",
+        "text": "Jan ha lavorato sulla nostra app <b>GetSociable</b> prendendo i requisiti e implementandoli <b>completamente secondo le specifiche</b>. È stato <b>molto diligente</b> nel suo lavoro, cercando chiarimenti quando necessario ed è stato in grado di <b>comunicare i progressi e eventuali blocchi</b>. Aveva un <b>talento per l'UI/UX</b> ed era altrettanto abile nella <b>funzionalità del backend</b>. Ha <b>lavorato bene con il team</b> e ha superato tutte le nostre aspettative."
+      },
+      "ict": {
+        "name": "ICT Formazione Professionale",
+        "position": "",
+        "text": "Al termine del mio percorso di formazione professionale come <b>Informatico Aziendale</b>, sono stato <b>premiato</b> per la <b>media delle mie note</b> scolastiche, con un risultato di <b>5.7 su 6</b>. Questo riconoscimento riflette l’<b>impegno e la dedizione</b> che ho messo nel mio percorso formativo. Inoltre, mi sono qualificato per i <b>campionati svizzeri ICT nelle Web Technologies</b>, un ulteriore traguardo raggiunto nella mia formazione professionale."
+      }
+    }
+  },
+  "SkillsSection": {
+    "title": "Skill",
+    "subtitle": "Le tecnologie principali con cui lavoro",
+    "web_development": "Sviluppo Web",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "database": "Database",
+    "os": "Sistemi Operativi",
+    "tools": "Strumenti",
+    "other": "Altro"
+  },
+  "ProjectsSection": {
+    "title": "Progetti",
+    "subtitle": "Alcuni dei miei progetti",
+    "not_in_chronological_order": "Non in ordine cronologico",
+    "content": {
+      "phatris": {
+        "title": "Phatris",
+        "description": "Phatris è un clone di Tetris che ho sviluppato con un compagno di classe nel 2022, dove il giocatore può scegliere tra diversi modalità di gioco. Il gioco è sviluppato con il framework Phaser 3 e visualizza una classifica memorizzata in un database MongoDB. I controlli della tastiera sono utilizzati per il gameplay.",
+        "source_link": "https://github.com/JanRezzonico/Phatris_Demo",
+        "extra_link": "https://phatris.demo.rezzonico.dev",
+        "extra_text": "Gioca ora",
+        "story": "Il mio primo progetto scolastico ufficiale, dove ho imparato molto sullo sviluppo di giochi e sul framework Phaser 3.",
+        "year": "2022"
+      },
+      "movie_survey": {
+        "title": "Movie Survey",
+        "description": "Movie Survey è un'applicazione sviluppata con React Native che aiuta a scegliere un film in modo democratico. Permette a un gruppo di votare su una selezione di film, generando una classifica e supportando nuove votazioni basate sui risultati precedenti. Utilizza WebSocket per comunicazioni in tempo reale e MongoDB per la gestione dei dati. Compatibile con Android e iOS.",
+        "source_link": "",
+        "extra_link": "",
+        "extra_text": "",
+        "story": "Il mio esame per l'AFC come Informatico Aziendale, dove ho dimostrato le mie skill nello sviluppo di App Mobile e nelle comunicazioni in tempo reale.",
+        "year": "2024"
+      },
+      "db_comparison": {
+        "title": "Analisi Comparativa di Database Relazionali e NoSQL",
+        "description": "Questa analisi prevede lo sviluppo di due web API equivalenti, una utilizzando un database relazionale (MySQL) e l'altra utilizzando un database documentale (MongoDB). Le API consentono di eseguire operazioni CRUD su un insieme di dati di esempio in modo da confrontare le prestazioni dei due database in termini di velocità di esecuzione e scalabilità.",
+        "source_link": "",
+        "extra_link": "",
+        "extra_text": "",
+        "story": "Un progetto che ho sviluppato per i miei studi di Informatica Aziendale, dove ho dimostrato le mie competenze nella creazione e gestione di database, nello sviluppo di API e nell'analisi comparativa.",
+        "year": "2024"
+      },
+      "workoutracker": {
+        "title": "WorkoutTracker",
+        "description": "Assieme a due studenti del mio stesso anno, ho sviluppato un'app mobile di tracciamento allenamenti utilizzando per la prima volta React Native con Expo. I dati sono gestiti tramite un backend con MongoDB e una REST API in Express, permettendo la gestione dei profili e dei dati utente.",
+        "source_link": "",
+        "extra_link": "/miscellaneous/Presentazione_WorkouTracker.pdf",
+        "extra_text": "Leggi la presentazione",
+        "story": "Il mio primo approccio allo sviluppo di app mobile, dove ho imparato molto su React Native ed Expo.",
+        "year": "2023"
+      },
+      "addiction_recovery": {
+        "title": "Clean Progress Tracker",
+        "description": "Un'applicazione mobile sviluppata con React Native che aiuta gli utenti a monitorare i progressi nel recupero da dipendenze, permettendo la creazione di contatori di tempo, l'aggiunta di note e il reset in caso di ricaduta. I dati sono gestiti tramite un backend con MongoDB e una REST API in Express, garantendo la gestione discreta dei profili e dei dati utente.",
+        "source_link": "",
+        "extra_link": "/miscellaneous/Presentazione_CleanProgressTracker.pdf",
+        "extra_text": "Leggi la presentazione",
+        "story": "Un progetto che ho sviluppato per i miei studi di Informatica Aziendale, dove ho dimostrato le mie competenze nello sviluppo di app mobile e nella gestione dei dati.",
+        "year": "2024"
+      },
+      "guess_the_word": {
+        "title": "Guess The Word",
+        "description": "Un clone molto semplice di Skribbl.io che ho creato nel 2022 con un compagno di classe, dove un giocatore disegna una parola e gli altri devono indovinarla. Il gioco è sviluppato con HTML/CSS/JS puro su Node.js e Socket.IO, permettendo la comunicazione in tempo reale tra i giocatori.",
+        "source_link": "",
+        "extra_link": "https://guesstheword.demo.rezzonico.dev/",
+        "extra_text": "Gioca ora",
+        "story": "Un gioco che ho sviluppato con un compagno di classe, dove ho imparato molto sulla comunicazione in tempo reale e lo sviluppo di giochi.",
+        "year": "2022"
+      },
+      "bmp_manipulator": {
+        "title": "Manipolatore di Bitmap",
+        "description": "Uno strumento da riga di comando Java che legge un'immagine bitmap a livello di byte senza utilizzare librerie. Permette all'utente di manipolare l'immagine applicando filtri, cambiando i colori e modificando pixel. Permette anche di creare ascii art a partire dall'immagine con caratteri personalizzati.",
+        "source_link": "https://github.com/JanRezzonico/i-love-bmp",
+        "extra_link": "",
+        "extra_text": "",
+        "story": "Un progetto che ho sviluppato mentre imparavo Java, durante il quale ho imparato molto sul formato bitmap e su come manipolare le immagini a livello di byte.",
+        "year": "2022"
+      },
+      "9erre": {
+        "title": "9erre",
+        "description": "Un sito web per il negozio di abbigliamento di seconda mano 9erre di Caritas Ticino, realizzato con Next.js e distribuito su un VPS. Il progetto offre una presenza online al negozio, presentando i prodotti e condividendo la missione del negozio. Tutti i diritti del sito web sono riservati a Caritas Ticino.",
+        "source_link": "",
+        "extra_link": "https://9erre.ch/",
+        "extra_text": "Visita il sito",
+        "story": "Un progetto che ho sviluppato per Caritas Ticino, durante il quale ho imparato molto sullo sviluppo web con il framework Next.js e sul deployment su VPS.",
+        "year": "2025"
+      }
+    }
+  },
+  "ContactPage": {
+    "title": "Vuoi metterti in contatto?",
+    "subtitle": "Sarei felice di ricevere un tuo messaggio!",
+    "copy": "Copia",
+    "copied": "Copiato!",
+    "thanks": "Grazie!! Spero di ricevere presto un tuo messaggio."
+  },
+  "PrivacyPolicy": {
+    "title": "Informativa sulla privacy",
+    "effective_date": "Data di entrata in vigore",
+    "intro": "Valorizziamo la tua privacy e siamo impegnati a proteggere le tue informazioni personali. Questa Informativa sulla privacy descrive come raccogliamo, utilizziamo e proteggiamo i tuoi dati personali in conformità con le leggi sulla privacy svizzere.",
+    "contact": "Se hai domande o dubbi riguardo a questa Informativa sulla privacy, contattaci via email a privacy@rezzonico.dev.",
+    "data_controller": {
+      "title": "1. Titolare del trattamento",
+      "description": "rezzonico.dev è di proprietà e gestito da Jan Rezzonico, la persona responsabile della raccolta e del trattamento dei dati personali."
+    },
+    "types_of_data_collected": {
+      "title": "2. Tipologie di dati raccolti",
+      "description": "Questo sito raccoglie i seguenti tipi di dati: Cookie. Un cookie necessario viene utilizzato per ricordare la tua preferenza linguistica per una migliore esperienza utente. Nessun dato personale viene raccolto tramite moduli o analisi."
+    },
+    "purpose_of_data_collection": {
+      "title": "3. Scopo della raccolta dei dati",
+      "description": "L'unico dato raccolto è il cookie di preferenza linguistica, che viene utilizzato esclusivamente per migliorare la tua esperienza utente ricordando la tua scelta linguistica durante la visita."
+    },
+    "data_retention_period": {
+      "title": "4. Periodo di conservazione dei dati",
+      "description": "Il cookie di preferenza linguistica è memorizzato sul tuo dispositivo e conservato fino a quando non lo elimini. Poiché il cookie è memorizzato lato client, hai il pieno controllo sulla sua eliminazione tramite le impostazioni del tuo browser."
+    },
+    "user_rights": {
+      "title": "5. Diritti dell'utente",
+      "description": "Poiché non vengono raccolti dati personali, non ci sono diritti formali di accesso, correzione o cancellazione dei dati personali. Tuttavia, se hai domande sui tuoi dati, non esitare a contattarci a privacy@rezzonico.dev."
+    },
+    "third_party_sharing": {
+      "title": "6. Condivisione con terze parti",
+      "description": "Questo sito è ospitato su Vercel, e Vercel potrebbe trattare i dati relativi alla sicurezza del sito web (ad esempio, protezione DDoS) e alla gestione delle performance. Non condividiamo dati personali con terze parti oltre a quanto necessario per il funzionamento del sito web. Per ulteriori informazioni su come Vercel gestisce i dati, ti invitiamo a consultare la loro informativa sulla privacy."
+    },
+    "security_measures": {
+      "title": "7. Misure di sicurezza",
+      "description": "Anche se non vengono scambiati dati personali oltre al cookie di preferenza linguistica, il sito utilizza HTTPS per garantire che ogni comunicazione tra il tuo browser e il server sia crittografata e sicura."
+    },
+    "changes_to_the_privacy_policy": {
+      "title": "8. Modifiche all'informativa sulla privacy",
+      "description": "Questa informativa sulla privacy potrebbe essere aggiornata di tanto in tanto. Qualsiasi modifica sarà riflessa in questa pagina, e la data dell'ultimo aggiornamento sarà indicata qui sotto."
+    },
+    "last_updated": "Ultimo aggiornamento: {effectiveDate}"
+  }
+}
