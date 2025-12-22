@@ -26,12 +26,12 @@ export const PresentationSection = () => {
         </div>
         <div
           data-aos="fade-left"
-          className="hover-3d max-w-sm sm:w-1/2 sm:aspect-auto w-full aspect-square object-cover">
+          className="hover-3d max-w-sm sm:w-1/2 w-full">
           <figure>
             <Image
               src={jan_rezzonico_hero}
               alt="Jan Rezzonico Hero"
-              className="rounded-lg shadow-accent-content"
+              className="rounded-lg shadow-accent-content object-cover aspect-square sm:aspect-auto"
               sizes="(max-width: 640px) 100vw, (min-width: 641px) and (max-width: 1024px) 50vw, 24rem"
               priority={true}
             />
