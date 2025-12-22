@@ -30,7 +30,7 @@ export const HeaderDesktop = ({ className }: Props) => {
       <div className="flex grow-0 shrink-0 basis-1/5 justify-center items-center gap-4">
         <LanguageSwitch />
         <Link
-          className="btn btn-primary"
+          className="btn btn-primary rounded"
           href={'/contact'}>
           {t('contact')}
         </Link>

@@ -15,23 +15,37 @@ export const PresentationSection = () => {
           <p className="text-lg">{t('description')}</p>
           <Link
             href={'#skills'}
-            className="btn btn-primary my-4 mr-2">
+            className="btn btn-primary rounded my-4 mr-2">
             {t('get_started')}
           </Link>
           <Link
             href={'/contact'}
-            className="btn bg-transparent border border-primary my-4">
+            className="btn bg-transparent border border-primary rounded my-4">
             {t('contact_me')}
           </Link>
         </div>
-        <Image
+        <div
           data-aos="fade-left"
-          src={jan_rezzonico_hero}
-          className="max-w-sm sm:w-1/2 sm:aspect-auto w-full aspect-square object-cover rounded-lg shadow-accent-content"
-          alt="Jan Rezzonico Hero"
-          sizes="(max-width: 640px) 100vw, (min-width: 641px) and (max-width: 1024px) 50vw, 24rem"
-          priority={true}
-        />
+          className="hover-3d max-w-sm sm:w-1/2 sm:aspect-auto w-full aspect-square object-cover">
+          <figure>
+            <Image
+              src={jan_rezzonico_hero}
+              alt="Jan Rezzonico Hero"
+              className="rounded-lg shadow-accent-content"
+              sizes="(max-width: 640px) 100vw, (min-width: 641px) and (max-width: 1024px) 50vw, 24rem"
+              priority={true}
+            />
+          </figure>
+          {/* 8 empty divs needed for the 3D effect */}
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
       </div>
     </div>
   )

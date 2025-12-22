@@ -45,7 +45,7 @@ export const HeaderMobile = ({ className }: Props) => {
       <div className="flex items-center gap-4 mr-4">
         <LanguageSwitch />
         <Link
-          className="btn btn-primary w-32"
+          className="btn btn-primary rounded w-32"
           href={'/contact'}>
           {t('contact')}
         </Link>
