@@ -1,0 +1,43 @@
+# Jan Rezzonico
+
+> Jan Rezzonico is a Full Stack Developer and Business IT Specialist (Informatico Aziendale AFC) based in Ticino, Switzerland. He builds web apps, PWAs, headless CMS and REST API backends with TypeScript, React, Next.js and Node.js, plus cross-platform mobile apps with React Native.
+
+Key facts:
+- Role: Full Stack Developer / Software Engineer (web development focus)
+- Location: Ticino, Switzerland
+- Languages: English, Italian (portfolio available in both)
+- Education: Business IT vocational training (Switzerland), final grade 5.7/6, awarded for best academic performance of the year
+- Recognition: qualified for the Swiss ICT Championships in Web Technologies
+- Portfolio: https://rezzonico.dev
+
+## Skills
+
+- Frontend: TypeScript, React, Next.js, HTML, CSS (websites, web apps, PWAs)
+- Backend: Node.js, Payload CMS, Next.js, REST APIs, headless CMS
+- Databases: PostgreSQL, MongoDB, MySQL, Prisma, Mongoose, Sequelize, SQL
+- Mobile: React Native, Expo (Android and iOS)
+- Real-time: WebSockets, Socket.IO
+- DevOps: Linux server management, Docker, Bash, Git, GitHub, CI/CD, deployment
+- Operating systems: Linux, Windows, macOS
+
+## Testimonial
+
+- Peter McCleery, CEO at GetSociable: Jan delivered the GetSociable app to full scope from requirements, communicated progress and blockers clearly, showed a flair for UI/UX alongside strong backend skills, and "surpassed all our expectations."
+
+## Projects
+
+- [I Hate Mailto](https://rezzonico.dev) (2026, open source, GPLv3): browser extension for Firefox that stops mailto:, tel: and sms: links from launching apps and copies the details to the clipboard instead. Customizable toasts and per-site disable. Built with WXT and TypeScript.
+- Movie Survey (2024, closed source): React Native app for democratic group movie voting with rankings and repeat rounds. WebSockets, MongoDB, Android and iOS. Business IT exam project.
+- Clean Progress Tracker (2024, closed source): React Native app for tracking progress in overcoming addictions, with time counters and notes. Express REST API and MongoDB backend with private user data.
+- Database Comparison (2024, closed source): two equivalent REST APIs (MySQL vs MongoDB) benchmarked for execution speed and scalability.
+- WorkoutTracker (2023, closed source): React Native and Expo workout app with an Express and MongoDB backend, built in a team of three.
+- Guess The Word (2022, closed source): real-time multiplayer drawing and guessing game (Skribbl.io-style) in vanilla JS, Node.js and Socket.IO.
+- Phatris (2022, source available): Tetris clone with multiple game modes, built with Phaser 3 and a MongoDB scoreboard.
+- Bitmap Manipulator (2022, source available): Java CLI tool that edits bitmaps byte by byte with no libraries (filters, color changes, ASCII art).
+
+## Links
+
+- [Portfolio (English)](https://rezzonico.dev/en): full project descriptions and skills
+- [Portfolio (Italian)](https://rezzonico.dev/it): same content in Italian
+- [Contact Page (English)](https://rezzonico.dev/en/contact): full project descriptions and skills
+- [Contact Page (Italian)](https://rezzonico.dev/it/contact): same content in Italian

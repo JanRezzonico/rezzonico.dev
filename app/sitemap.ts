@@ -3,7 +3,7 @@ import { locales } from "@/libs/i18n/config";
 import { SITE_URL } from "@/libs/constants";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return locales.flatMap((locale) => [
+  const localized = locales.flatMap((locale) => [
     {
       url: `${SITE_URL}/${locale}`,
       changeFrequency: "monthly",
@@ -14,5 +14,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "yearly",
       priority: 0.8,
     },
-  ]);
+  ]) satisfies MetadataRoute.Sitemap;
+  const llms = [
+    {
+      url: `${SITE_URL}/llms.txt`,
+      changeFrequency: "yearly",
+      priority: 0.5,
+    },
+  ] satisfies MetadataRoute.Sitemap;
+  return [...localized, ...llms];
 }
