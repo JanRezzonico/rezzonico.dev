@@ -1,0 +1,162 @@
+{
+  "metadataTitle": "Jan Rezzonico - Full Stack Developer",
+  "contact": {
+    "title": "Do you want to get in touch?",
+    "subtitle": "I would love to hear from you!",
+    "email": {
+      "copied": "Copied!",
+      "thanks": "Thank you!! I hope to recieve a message from you soon.",
+      "copy": "Copy"
+    },
+    "socialTitle": "I am also on"
+  },
+  "sections": {
+    "home": "Home",
+    "skills": "Skills",
+    "testimonials": "Testimonials",
+    "projects": "Projects"
+  },
+  "header": {
+    "title": "Software Engineering & Development",
+    "contact": "Get in touch"
+  },
+  "hero": {
+    "title": "Hi, I'm Jan",
+    "subtitle": "Full Stack Development &",
+    "subtitle2": "Software Engineering",
+    "description": "I'm a Business IT Specialist based in Ticino, Switzerland, with a passion for Web Development. I have a broad background in IT, but I have always excelled in software ideation and development. I'm always looking for new challenges and opportunities to grow professionally.",
+    "getStarted": "Explore my work",
+    "contact": "Get in touch"
+  },
+  "pageEnd": {
+    "title": "You made it to the bottom.",
+    "text": "No more projects hiding down here. You may now safely return to the top.",
+    "scrollToTop": "Scroll back to the top"
+  },
+  "skills": {
+    "subtitle": "Technologies and tools I work with",
+    "frontend": {
+      "title": "Frontend",
+      "text": "TypeScript, React, Next.js, HTML, CSS - Websites, Web Apps, PWAs"
+    },
+    "backend": {
+      "title": "Backend",
+      "text": "Node.js, Payload CMS, Next.js - REST API, Headless CMS"
+    },
+    "database": {
+      "title": "Database",
+      "text": "PostgreSQL, MongoDB - Prisma, Mongoose, Sequelize, SQL"
+    },
+    "os": {
+      "title": "Operating Systems",
+      "text": "Linux, Windows, macOS"
+    },
+    "tools": {
+      "title": "Tools",
+      "text": "Git, GitHub, Docker, CI/CD"
+    },
+    "devops": {
+      "title": "DevOps & Servers",
+      "text": "Linux Server Management, Docker, Bash, Deployment"
+    }
+  },
+  "projects": {
+    "subtitle": "Some of my projects",
+    "notInChronologicalOrder": "Not in chronological order",
+    "items": {
+      "ihatemailto": {
+        "title": "I Hate Mailto",
+        "description": "I got tired of mailto: links opening an email client I never use, so I built I Hate Mailto, my first browser extension. It intercepts mailto:, tel: and sms: clicks and copies the details to your clipboard instead, with a clear toast confirming what happened. Toast colors, position and duration are customizable, and you can turn it off on specific sites. Built with WXT and TypeScript.",
+        "sourceLink": "https://github.com/JanRezzonico/i-hate-mailto",
+        "sourceLabel": "Open Source (GPLv3)",
+        "extraLink": "https://addons.mozilla.org/en-US/firefox/addon/i-hate-mailto-rezz-dev/",
+        "extraText": "Get it for Firefox",
+        "story": "A lightweight browser add-on that stops mailto:, tel: and sms: links from launching apps you don't want, and copies their details to your clipboard instead.",
+        "year": "2026"
+      },
+      "guessTheWord": {
+        "title": "Guess The Word",
+        "description": "A deliberately simple Skribbl.io clone I built in 2022 with a classmate. One player draws a word and everyone else tries to guess it. It's written in vanilla HTML/CSS/JS on top of Node.js and Socket.IO, which handles the real-time communication between players.",
+        "sourceLink": "",
+        "sourceLabel": "Closed Source",
+        "extraLink": "https://guesstheword.demo.rezzonico.dev/",
+        "extraText": "Try it out",
+        "story": "A fun project I built with a classmate, and a great way to learn about real-time communication and game development.",
+        "year": "2022"
+      },
+      "phatris": {
+        "title": "Phatris",
+        "description": "Phatris is a Tetris clone I built in 2022 with a classmate, with several game modes to choose from. It runs on the Phaser 3 framework, is played with the keyboard, and shows a scoreboard stored in a MongoDB database.",
+        "sourceLink": "https://github.com/JanRezzonico/Phatris_Demo",
+        "sourceLabel": "Source Available (©)",
+        "extraLink": "https://phatris.demo.rezzonico.dev",
+        "extraText": "Try it out",
+        "story": "My first official school project, and where I learned the ropes of game development and Phaser 3.",
+        "year": "2022"
+      },
+      "bmpManipulator": {
+        "title": "Bitmap Manipulator",
+        "description": "A Java command-line tool that reads bitmap images at the byte level, with no libraries involved. You can apply filters, change colors and edit individual pixels, or turn an image into ASCII art using custom characters.",
+        "sourceLink": "https://github.com/JanRezzonico/i-love-bmp",
+        "sourceLabel": "Source Available (©)",
+        "extraLink": "",
+        "extraText": "",
+        "story": "Built while I was learning Java. It taught me a lot about the bitmap format and how to manipulate images byte by byte.",
+        "year": "2022"
+      },
+      "movieSurvey": {
+        "title": "Movie Survey",
+        "description": "Movie Survey is a React Native app that helps a group pick a movie democratically. Users vote on a selection of films, the app generates a ranking, and it can run new rounds of voting based on previous results. It uses WebSockets for real-time communication and MongoDB for data storage, and works on both Android and iOS.",
+        "sourceLink": "",
+        "sourceLabel": "Closed Source",
+        "extraLink": "",
+        "extraText": "",
+        "story": "My Business IT exam project, where I showcased my skills in mobile app development and real-time communication.",
+        "year": "2024"
+      },
+      "databaseComparison": {
+        "title": "Database Comparison",
+        "description": "An analysis built around two equivalent web APIs: one backed by a relational database (MySQL), the other by a document database (MongoDB). Both support CRUD operations on a sample dataset, so I could compare the two in terms of execution speed and scalability.",
+        "sourceLink": "",
+        "sourceLabel": "Closed Source",
+        "extraLink": "",
+        "extraText": "",
+        "story": "A project from my Business IT studies, where I put my skills in database design and management, API development and comparative analysis to work.",
+        "year": "2024"
+      },
+      "addictionRecovery": {
+        "title": "Clean Progress Tracker",
+        "description": "A React Native mobile app that helps people track their progress in overcoming addictions. Users can create time counters, add notes, and reset them after a relapse. Data is handled by a MongoDB backend with an Express REST API, keeping user profiles and data private.",
+        "sourceLink": "",
+        "sourceLabel": "Closed Source",
+        "extraLink": "/pdf/Presentazione_CleanProgressTracker.pdf",
+        "extraText": "View the presentation (IT)",
+        "story": "A project from my Business IT studies, where I showed what I can do in mobile app development and data management.",
+        "year": "2024"
+      },
+      "workoutTracker": {
+        "title": "WorkoutTracker",
+        "description": "A mobile workout-tracking app I built with two other students from my year, and my first time using React Native with Expo. Data is handled by a MongoDB backend with an Express REST API, which manages user profiles and data.",
+        "sourceLink": "",
+        "sourceLabel": "Closed Source",
+        "extraLink": "/pdf/Presentazione_WorkouTracker.pdf",
+        "extraText": "View the presentation (IT)",
+        "story": "My first dive into mobile app development, and where I learned React Native and Expo.",
+        "year": "2023"
+      }
+    }
+  },
+  "testimonials": {
+    "subtitle": "What people I have worked with say",
+    "getsociable": {
+      "title": "Peter McCleery",
+      "subtitle": "CEO at GetSociable",
+      "text": "Jan worked on our **GetSociable** App by taking **requirements** and implementing them **fully to scope**. He was **very diligent** in his work, seeking clarity where required and **able to communicate progress and any blockers**. He had a **flair for UI/UX** and also equally **adept at backend functionality**. He **worked well with the team** and surpassed all our expectations."
+    },
+    "ict": {
+      "title": "ICT Berufsbildung",
+      "subtitle": "",
+      "text": "At the end of my professional training as a **Business IT Specialist**, I was **awarded** for my academic performance, achieving a **result of 5.7 out of 6**. This recognition reflects the **commitment and dedication** I put into my educational journey. Additionally, I qualified for the **Swiss ICT Championships in Web Technologies**, a milestone that represents further success in my career."
+    }
+  }
+}

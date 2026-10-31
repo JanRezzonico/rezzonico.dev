@@ -1,0 +1,44 @@
+.toast-alert-error {
+  background-color: var(--color-error);
+  color: var(--color-primary-content);
+}
+
+.toast-alert-success {
+  background-color: var(--color-success);
+  color: var(--color-primary-content);
+}
+
+.toast-alert-info {
+  background-color: var(--color-primary);
+  color: var(--color-primary-content);
+}
+
+.toast-enter {
+  animation: dropIn 0.5s ease-out forwards;
+}
+
+.toast-exit {
+  animation: dropOut 0.5s ease-in forwards;
+}
+
+@keyframes dropIn {
+  0% {
+    transform: translateY(-12rem);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(4rem);
+    opacity: 1;
+  }
+}
+
+@keyframes dropOut {
+  0% {
+    transform: translateY(4rem);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-12rem);
+    opacity: 0;
+  }
+}

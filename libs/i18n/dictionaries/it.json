@@ -1,0 +1,162 @@
+{
+  "metadataTitle": "Jan Rezzonico - Sviluppatore Full Stack",
+  "contact": {
+    "title": "Vuoi metterti in contatto?",
+    "subtitle": "Sarei felice di ricevere un tuo messaggio!",
+    "email": {
+      "copied": "Copiato!",
+      "thanks": "Grazie!! Spero di ricevere presto un tuo messaggio.",
+      "copy": "Copia"
+    },
+    "socialTitle": "Mi trovi anche su"
+  },
+  "sections": {
+    "home": "Home",
+    "skills": "Competenze",
+    "testimonials": "Testimonianze",
+    "projects": "Progetti"
+  },
+  "header": {
+    "title": "Ingegneria software e sviluppo",
+    "contact": "Contattami"
+  },
+  "hero": {
+    "title": "Ciao, sono Jan",
+    "subtitle": "Sviluppo Full Stack &",
+    "subtitle2": "Ingegneria Software",
+    "description": "Sono un Informatico Aziendale basato in Ticino, Svizzera, e con la passione per lo sviluppo web. Ho una solida esperienza nel settore IT, ma mi sono sempre distinto nell'ideazione e nello sviluppo software. Cerco sempre nuove sfide e opportunità per crescere professionalmente.",
+    "getStarted": "Scopri i miei progetti",
+    "contact": "Contattami"
+  },
+  "pageEnd": {
+    "title": "Sei arrivato fino in fondo.",
+    "text": "Qui non si nascondono altri progetti. Puoi tornare in cima senza preoccupazioni.",
+    "scrollToTop": "Torna in cima"
+  },
+  "skills": {
+    "subtitle": "Tecnologie e strumenti con cui lavoro",
+    "frontend": {
+      "title": "Frontend",
+      "text": "TypeScript, React, Next.js, HTML, CSS - Siti web, Web app, PWA"
+    },
+    "backend": {
+      "title": "Backend",
+      "text": "Node.js, Payload CMS, Next.js - REST API, CMS headless"
+    },
+    "database": {
+      "title": "Database",
+      "text": "PostgreSQL, MongoDB - Prisma, Mongoose, Sequelize, SQL"
+    },
+    "os": {
+      "title": "Sistemi operativi",
+      "text": "Linux, Windows, macOS"
+    },
+    "tools": {
+      "title": "Strumenti",
+      "text": "Git, GitHub, Docker, CI/CD"
+    },
+    "devops": {
+      "title": "DevOps e server",
+      "text": "Gestione server Linux, Docker, Bash, Deployment"
+    }
+  },
+  "projects": {
+    "subtitle": "Alcuni dei miei progetti",
+    "notInChronologicalOrder": "Non in ordine cronologico",
+    "items": {
+      "ihatemailto": {
+        "title": "I Hate Mailto",
+        "description": "Mi ero stancato dei link mailto: che aprono un client di posta che non uso mai, così ho creato I Hate Mailto, la mia prima estensione per browser. Intercetta i clic su mailto:, tel: e sms: e copia i dati negli appunti, mostrando un chiaro avviso che conferma cos'è successo. Colori, posizione e durata dell'avviso sono personalizzabili e puoi disattivarla su siti specifici. Sviluppata con WXT e TypeScript.",
+        "sourceLink": "https://github.com/JanRezzonico/i-hate-mailto",
+        "sourceLabel": "Open Source (GPLv3)",
+        "extraLink": "https://addons.mozilla.org/en-US/firefox/addon/i-hate-mailto-rezz-dev/",
+        "extraText": "Scaricala per Firefox",
+        "story": "Un'estensione per browser che impedisce ai link mailto:, tel: e sms: di aprire applicazioni indesiderate e ne copia i dati negli appunti.",
+        "year": "2026"
+      },
+      "guessTheWord": {
+        "title": "Guess The Word",
+        "description": "Un semplice clone di Skribbl.io, creato nel 2022 insieme a un compagno di classe: un giocatore disegna una parola e gli altri devono indovinarla. È sviluppato con HTML/CSS/JS puro su Node.js e Socket.IO, che gestisce la comunicazione in tempo reale tra i giocatori.",
+        "sourceLink": "",
+        "sourceLabel": "Closed Source",
+        "extraLink": "https://guesstheword.demo.rezzonico.dev/",
+        "extraText": "Provalo",
+        "story": "Un progetto divertente realizzato con un compagno di classe, ottimo per imparare la comunicazione in tempo reale e lo sviluppo di giochi.",
+        "year": "2022"
+      },
+      "phatris": {
+        "title": "Phatris",
+        "description": "Phatris è un clone di Tetris sviluppato nel 2022 con un compagno di classe, con diverse modalità di gioco tra cui scegliere. Si basa sul framework Phaser 3, si gioca con la tastiera e mostra una classifica salvata in un database MongoDB.",
+        "sourceLink": "https://github.com/JanRezzonico/Phatris_Demo",
+        "sourceLabel": "Source Available (©)",
+        "extraLink": "https://phatris.demo.rezzonico.dev",
+        "extraText": "Provalo",
+        "story": "Il mio primo progetto scolastico ufficiale, in cui ho imparato le basi dello sviluppo di giochi e di Phaser 3.",
+        "year": "2022"
+      },
+      "bmpManipulator": {
+        "title": "Bitmap Manipulator",
+        "description": "Uno strumento da riga di comando in Java che legge le immagini bitmap a livello di byte, senza usare alcuna libreria. Permette di applicare filtri, cambiare i colori e modificare singoli pixel, oppure di trasformare un'immagine in ASCII art con caratteri personalizzati.",
+        "sourceLink": "https://github.com/JanRezzonico/i-love-bmp",
+        "sourceLabel": "Source Available (©)",
+        "extraLink": "",
+        "extraText": "",
+        "story": "Realizzato mentre imparavo Java. Mi ha insegnato molto sul formato bitmap e su come manipolare le immagini byte per byte.",
+        "year": "2022"
+      },
+      "movieSurvey": {
+        "title": "Movie Survey",
+        "description": "Movie Survey è un'app React Native che aiuta un gruppo a scegliere un film in modo democratico. Gli utenti votano una selezione di film, l'app genera una classifica e permette di avviare nuove votazioni a partire dai risultati precedenti. Usa WebSocket per la comunicazione in tempo reale e MongoDB per la gestione dei dati, ed è compatibile con Android e iOS.",
+        "sourceLink": "",
+        "sourceLabel": "Closed Source",
+        "extraLink": "",
+        "extraText": "",
+        "story": "Il mio progetto d'esame per l'AFC come Informatico Aziendale, in cui ho messo in mostra le mie competenze nello sviluppo di app mobile e nella comunicazione in tempo reale.",
+        "year": "2024"
+      },
+      "databaseComparison": {
+        "title": "Database Comparison",
+        "description": "Un'analisi basata su due API web equivalenti: una con database relazionale (MySQL), l'altra con database documentale (MongoDB). Entrambe permettono operazioni CRUD su un dataset di esempio, così da confrontare le prestazioni dei due database in termini di velocità di esecuzione e scalabilità.",
+        "sourceLink": "",
+        "sourceLabel": "Closed Source",
+        "extraLink": "",
+        "extraText": "",
+        "story": "Un progetto nato durante i miei studi in Informatica Aziendale, in cui ho messo in pratica le mie competenze in creazione e gestione di database, sviluppo di API e analisi comparativa.",
+        "year": "2024"
+      },
+      "addictionRecovery": {
+        "title": "Clean Progress Tracker",
+        "description": "Un'app mobile in React Native che aiuta le persone a monitorare i propri progressi nel superare una dipendenza. Permette di creare contatori del tempo, aggiungere note e azzerarli in caso di ricaduta. I dati sono gestiti da un backend MongoDB con API REST in Express, che mantiene privati profili e dati degli utenti.",
+        "sourceLink": "",
+        "sourceLabel": "Closed Source",
+        "extraLink": "/pdf/Presentazione_CleanProgressTracker.pdf",
+        "extraText": "Leggi la presentazione",
+        "story": "Un progetto nato durante i miei studi in Informatica Aziendale, in cui ho mostrato di cosa sono capace nello sviluppo di app mobile e nella gestione dei dati.",
+        "year": "2024"
+      },
+      "workoutTracker": {
+        "title": "WorkoutTracker",
+        "description": "Un'app mobile per tracciare gli allenamenti, sviluppata con altri due studenti del mio anno e la mia prima esperienza con React Native ed Expo. I dati sono gestiti da un backend MongoDB con API REST in Express, che si occupa di profili e dati degli utenti.",
+        "sourceLink": "",
+        "sourceLabel": "Closed Source",
+        "extraLink": "/pdf/Presentazione_WorkouTracker.pdf",
+        "extraText": "Leggi la presentazione",
+        "story": "Il mio primo tuffo nello sviluppo di app mobile, in cui ho imparato React Native ed Expo.",
+        "year": "2023"
+      }
+    }
+  },
+  "testimonials": {
+    "subtitle": "Cosa dicono le persone con cui ho lavorato",
+    "getsociable": {
+      "title": "Peter McCleery",
+      "subtitle": "CEO / GetSociable",
+      "text": "Jan ha lavorato sulla nostra app **GetSociable** prendendo i requisiti e implementandoli **completamente secondo le specifiche**. È stato **molto diligente** nel suo lavoro, cercando chiarimenti quando necessario ed è stato in grado di **comunicare i progressi e eventuali blocchi**. Aveva un **talento per l'UI/UX** ed era altrettanto abile nella **funzionalità del backend**. Ha **lavorato bene con il team** e ha superato tutte le nostre aspettative."
+    },
+    "ict": {
+      "title": "ICT Formazione Professionale",
+      "subtitle": "",
+      "text": "Al termine del mio percorso di formazione professionale come **Informatico Aziendale**, sono stato **premiato** per la **media delle mie note** scolastiche, con un risultato di **5.7 su 6**. Questo riconoscimento riflette l’**impegno e la dedizione** che ho messo nel mio percorso formativo. Inoltre, mi sono qualificato per i **campionati svizzeri ICT nelle Web Technologies**, un ulteriore traguardo raggiunto nella mia formazione professionale."
+    }
+  }
+}
