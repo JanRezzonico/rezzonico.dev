@@ -5,6 +5,7 @@ import type {
   RichText as RichTextType,
   Section as SectionType,
 } from "./types";
+import ObfuscatedEmail from "./ObfuscatedEmail";
 
 function RichText({ text }: { text: RichTextType }): ReactElement {
   if (typeof text === "string") return <>{text}</>;
@@ -15,13 +16,18 @@ function RichText({ text }: { text: RichTextType }): ReactElement {
         if (typeof part === "string") return <span key={i}>{part}</span>;
         if ("bold" in part) return <b key={i}>{part.bold}</b>;
 
-        const external = !part.href.startsWith("mailto:");
+        if (part.href.startsWith("mailto:")) {
+          const [user, domain] = part.href.slice("mailto:".length).split("@");
+          return <ObfuscatedEmail key={i} user={user} domain={domain} />;
+        }
+
         return (
           <a
             key={i}
             href={part.href}
             className={"link link-primary"}
-            {...(external && { target: "_blank", rel: "noopener noreferrer" })}
+            target="_blank"
+            rel="noopener noreferrer"
           >
             {part.label}
           </a>
@@ -110,7 +116,7 @@ export default function PrivacyPage() {
   const { title, intro, sections } = pageContent;
 
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen mb-16">
       <div className="flex flex-col max-w-5xl mx-auto gap-4 p-4">
         <h1 className="text-5xl font-bold">{title}</h1>
         <p className="text-sm opacity-70">
