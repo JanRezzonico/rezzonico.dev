@@ -17,7 +17,7 @@ export default async function Contact({
   const dict = await getDictionary(lang);
 
   return (
-    <section className="flex h-[calc(100vh-8rem)] flex-col items-center justify-between px-4 py-16 text-center">
+    <section className="flex h-[65vh] flex-col items-center justify-between px-4 py-16 text-center">
       <div className="flex flex-col items-center gap-3">
         <Reveal preset="fromTop">
           <h1 className="text-3xl">{dict.contact.title}</h1>
