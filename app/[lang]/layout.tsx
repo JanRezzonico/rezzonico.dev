@@ -4,7 +4,7 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 
 import bgImage from "@/images/background.svg";
 
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Poppins as Font } from "next/font/google";
 import { notFound } from "next/navigation";
 import { getDictionary, hasLocale } from "@/libs/i18n/dictionaries";
@@ -66,6 +66,12 @@ export async function generateMetadata({
 export async function generateStaticParams() {
   return [{ lang: "en" }, { lang: "it" }];
 }
+
+export const viewport: Viewport = {
+  initialScale: 1,
+  width: "device-width",
+  colorScheme: "dark",
+};
 
 export default async function RootLayout({
   children,
