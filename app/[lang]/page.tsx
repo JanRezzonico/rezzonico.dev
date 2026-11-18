@@ -23,6 +23,7 @@ import movieSurveyImage from "@/images/projects/movie_survey.webp";
 import phatrisImage from "@/images/projects/phatris.webp";
 import workoutTrackerImage from "@/images/projects/workoutracker.webp";
 import ihatemailtoImage from "@/images/projects/ihatemailto.webp";
+import payloadPluginAudit from "@/images/projects/payload-plugin-audit.png";
 import heroImage from "@/images/hero.jpg";
 import { Reveal } from "@/components/Reveal";
 import { Label } from "@/components/Reusables/Label";
@@ -39,6 +40,7 @@ export default async function Home({
 
   const dict = await getDictionary(lang);
   const projects = [
+    { id: "payload-plugin-audit", image: payloadPluginAudit },
     { id: "ihatemailto", image: ihatemailtoImage },
     { id: "guessTheWord", image: guessTheWordImage },
     { id: "movieSurvey", image: movieSurveyImage },

@@ -64,6 +64,16 @@
     "subtitle": "Alcuni dei miei progetti",
     "notInChronologicalOrder": "Non in ordine cronologico",
     "items": {
+      "payload-plugin-audit": {
+        "title": "Plugin di audit per Payload CMS",
+        "description": "Il plugin payload-plugin-audit aggiunge un registro di audit alle collezioni di Payload CMS. Registra chi ha creato o aggiornato un documento, salva i delta degli aggiornamenti ed espone le informazioni di audit nel pannello di amministrazione di Payload tramite campi virtuali di sola lettura.",
+        "sourceLink": "https://github.com/JanRezzonico/payload-plugin-audit",
+        "sourceLabel": "Open Source (MPL-2.0)",
+        "extraLink": "https://www.npmjs.com/package/payload-plugin-audit",
+        "extraText": "Visualizza su npm",
+        "story": "Un plugin di audit semplice ma funzionale per Payload CMS.",
+        "year": "2026"
+      },
       "ihatemailto": {
         "title": "I Hate Mailto",
         "description": "Mi ero stancato dei link mailto: che aprono un client di posta che non uso mai, così ho creato I Hate Mailto, la mia prima estensione per browser. Intercetta i clic su mailto:, tel: e sms: e copia i dati negli appunti, mostrando un chiaro avviso che conferma cos'è successo. Colori, posizione e durata dell'avviso sono personalizzabili e puoi disattivarla su siti specifici. Sviluppata con WXT e TypeScript.",

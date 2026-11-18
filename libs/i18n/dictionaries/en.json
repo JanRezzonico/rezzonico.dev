@@ -64,6 +64,16 @@
     "subtitle": "Some of my projects",
     "notInChronologicalOrder": "Not in chronological order",
     "items": {
+      "payload-plugin-audit": {
+        "title": "Audit Plugin for Payload CMS",
+        "description": "The payload-plugin-audit plugin adds an audit trail to Payload CMS collections. It records who created or updated a document, stores update deltas, and exposes the audit information in the Payload admin panel through read-only virtual fields.",
+        "sourceLink": "https://github.com/JanRezzonico/payload-plugin-audit",
+        "sourceLabel": "Open Source (MPL-2.0)",
+        "extraLink": "https://www.npmjs.com/package/payload-plugin-audit",
+        "extraText": "View on npm",
+        "story": "A simple but functional audit plugin for Payload CMS.",
+        "year": "2026"
+      },
       "ihatemailto": {
         "title": "I Hate Mailto",
         "description": "I got tired of mailto: links opening an email client I never use, so I built I Hate Mailto, my first browser extension. It intercepts mailto:, tel: and sms: clicks and copies the details to your clipboard instead, with a clear toast confirming what happened. Toast colors, position and duration are customizable, and you can turn it off on specific sites. Built with WXT and TypeScript.",
